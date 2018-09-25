@@ -1,5 +1,5 @@
 {
-  "name": "expo-server-sdk",
+  "name": "expo-pushnotification-server-sdk",
   "version": "3.0.1",
   "description": "Server side library for working with Expo using Node.js",
   "main": "build/ExpoClient.js",
