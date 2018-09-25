@@ -2,11 +2,11 @@
 set -e
 
 echo "🔥  Cleaning build directory"
-rm -fr build
+sudo rm -fr build
 
 echo
 echo "📚  Compiling source files"
-npm run tsc
+sudo npm run tsc
 
 echo
 echo "🆗  Build finished"

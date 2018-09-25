@@ -11,6 +11,7 @@
   "scripts": {
     "babel": "babel",
     "build": "./build.sh",
+    "postinstall": "sudo ./build.sh",
     "prepublish": "npm run build",
     "test": "jest",
     "tsc": "tsc",
